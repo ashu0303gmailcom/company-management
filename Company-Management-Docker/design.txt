@@ -1,0 +1,31 @@
+           Company
+              |
+              |
+         Departments
+      -------------------------------
+      |                  |
+      |                  |
+      IT                ADMIN
+      |                   |
+   ---------          ------------
+   |        |         |          |
+   Emp     Manger    Emp       Manager
+   
+   
+   
+   Table Details
+   Department- ID, DepartmentName, Description(nullable)
+   Resource- ID, Name, DOB(nullable), IsManager
+   
+   insert into department (id, departmentname,description) values(1, 'IT', null);
+   
+   
+   Classes
+   Department(Entity)
+   Resource(Entity)
+   CompanyController(Controller)
+   DepartmentService
+   ResourceService
+   DepartmentDAO
+   ResourceDAO
+   
